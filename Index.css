@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.card {
+  text-justify: auto;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  max-width: 300px;
+  margin: 70px auto;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-part {
+  padding: 20px 20px;
+  margin: 30px 0px;
+  display: grid;
+  border: 1px solid black;
+
+}
+
+.rounded.float-left {
+  border: 2px black;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.Event {
+  padding-bottom: 10px;
+}
+
+.dates {
+  position: absolute;
+  right: 30px;
+  bottom: 160px;
+}
+
+.seats {
+  position: absolute;
+  bottom: 90px;
+  right: 50px
+}
+
+.book {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+
+}
